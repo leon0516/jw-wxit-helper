@@ -1,0 +1,64 @@
+{
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "background.html"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "inject.css"
+      ],
+      "js": [
+        "pj.js"
+      ],
+      "matches": [
+        "http://jwgl.wxit.edu.cn/web_jxpj/jxpj_xspj.aspx"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "css": [
+        "inject.css"
+      ],
+      "js": [
+        "inject.js",
+        "note.js"
+      ],
+      "matches": [
+        "http://jwgl.wxit.edu.cn/index3.aspx"
+      ],
+      "run_at": "document_end"
+    },{
+      "css": [
+        "inject.css"
+      ],
+      "js": [
+        "jspj.js"
+      ],
+      "matches": [
+        "http://jwgl.wxit.edu.cn/web_jxpj/jxpj_jspj.aspx"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "description": "\u65E0\u9521\u804C\u4E1A\u6280\u672F\u5B66\u9662\u8BC4\u6559\u5C0F\u52A9\u624B",
+  "homepage_url": "http://leon.leanote.com/post/%E4%B8%80%E9%94%AE%E8%AF%84%E6%95%99%E6%95%99%E7%A8%8B",
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "manifest_version": 2,
+  "name": "\u9521\u804C\u8BC4\u6559\u52A9\u624B",
+  "permissions": [
+    "tabs",
+    "notifications",
+    "http://jwgl.wxit.edu.cn/*"
+  ],
+  "update_url": "http://leon.leanote.com/post/%E4%B8%80%E9%94%AE%E8%AF%84%E6%95%99%E6%95%99%E7%A8%8B",
+  "version": "1.0"
+}
