@@ -12,6 +12,18 @@
         "inject.css"
       ],
       "js": [
+        "insertindex.js"
+      ],
+      "matches": [
+        "http://jwgl.wxit.edu.cn/"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "css": [
+        "inject.css"
+      ],
+      "js": [
         "pj.js"
       ],
       "matches": [
@@ -31,7 +43,8 @@
         "http://jwgl.wxit.edu.cn/index3.aspx"
       ],
       "run_at": "document_end"
-    },{
+    },
+    {
       "css": [
         "inject.css"
       ],
@@ -44,8 +57,8 @@
       "run_at": "document_end"
     }
   ],
-  "description": "\u65E0\u9521\u804C\u4E1A\u6280\u672F\u5B66\u9662\u8BC4\u6559\u5C0F\u52A9\u624B",
-  "homepage_url": "http://leon.leanote.com/post/%E4%B8%80%E9%94%AE%E8%AF%84%E6%95%99%E6%95%99%E7%A8%8B",
+  "description": "学生评教,教师互评,学生成绩录入,统统一键搞定,方便无锡职院师生!",
+  "homepage_url": "http://blog.sharecode.pub/2015/06/18/jw-wxit-helper-chrome-plugin/",
   "icons": {
     "16": "icon.png",
     "32": "icon.png",
@@ -53,12 +66,12 @@
     "128": "icon.png"
   },
   "manifest_version": 2,
-  "name": "\u9521\u804C\u8BC4\u6559\u52A9\u624B",
+  "name": "锡职教务助手",
   "permissions": [
     "tabs",
     "notifications",
     "http://jwgl.wxit.edu.cn/*"
   ],
-  "update_url": "http://leon.leanote.com/post/%E4%B8%80%E9%94%AE%E8%AF%84%E6%95%99%E6%95%99%E7%A8%8B",
-  "version": "1.0"
+  "update_url": "http://77fz4f.com1.z0.glb.clouddn.com/update.xml",
+  "version": "1.2"
 }
